@@ -1,0 +1,102 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+.text{
+    margin-left:8%;
+    margin-top: 10%;
+}
+.text h1{
+    color: rgb(218,107,18);
+    font-weight: 800;
+}
+.container{
+    width: 50%;
+    margin-left:30%;
+    margin-top: 1%;
+
+
+}
+header{
+    background-color: rgb(255,195,193);
+    height:10vh;
+   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border:1px solid rgb(54, 122, 204);
+}
+nav{
+    background-color: rgb(195,241,255);
+    height:10vh;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    border:1px solid rgb(25, 121, 238);
+
+}
+section{
+    height:60vh;
+    display:flex;
+    width:100%;
+    border:1px solid rgb(25, 121, 238);
+}
+article{
+    background-color: rgb(255,255,255);
+    width:70%;
+    display:flex;
+    flex-direction: column;
+    font-size: 50px;
+    border:1px solid rgb(25, 121, 238);
+}
+article span{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    margin:10px 10px 0px 10px;
+}
+article header{
+    background-color: rgb(245, 198, 199);
+    border-top:1px solid rgb(183,153,143);
+    border-bottom:1px solid rgb(183,153,143) ;
+    border-right:1px solid rgb(183,153,143) ;
+    border-left:none;
+    margin:10px 10px 0px 10px;
+    height:10%;
+    font-size: 30px;
+}
+article aside{
+     background-color: rgb(226,214,240);
+     height:70%;
+     border:none;
+     margin:10px 10px 0px 10px;
+     border-top:1px solid rgb(183,153,143);
+     border-bottom:1px solid rgb(183,153,143) ;
+     border-right:1px solid rgb(183,153,143) ;
+     border-left:none;
+     font-size: 30px;
+}
+aside{
+    background-color: rgb(222,222,222);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    border:1px solid;
+    font-size: 30px;
+    
+}
+footer{
+    background-color: rgb(255,213,181);
+    height:10vh;
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rgb(25, 121, 238);
+    font-size: 30px;
+}

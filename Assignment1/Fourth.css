@@ -1,0 +1,124 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+.container{
+    width:50vw;
+    margin-left:25%;
+    /* margin-right: 80%; */
+}
+header{
+    height:10vh;
+    background-color: rgb(167,202,204);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    
+}
+section{
+    background-color:rgb(226,240,241);
+    height:80vh;
+    margin:10px;
+}
+.first{
+    display:flex;
+    flex-direction: row;
+    height:40vh;
+    
+}
+.first article{
+    width:800px;
+    background-color: rgb(167,202,204);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    margin:5px;
+}
+.first aside{
+   width:600px;
+   background-color: white;
+   margin:5px;
+   
+}
+.first aside .hero{
+   height: 30vh;
+    background-color: rgb(167,202,204);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    margin-bottom: 5px;
+    
+}
+.first aside .call{
+    height: 7vh;
+    background-color: rgb(206,217,17);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    margin-top: 5px;
+    
+}
+.second{
+height:40vh;
+
+}
+nav{
+    height:25vh;
+    background-color: rgb(167,202,204);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left:5px;
+    margin-top:5px;
+    
+    
+}
+.second aside{
+    display:flex;
+    flex-direction: row;
+    height:14vh;
+
+    
+}
+.second aside .hero{
+  width:50%;  
+  background-color: rgb(167,202,204);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left:5px;
+    
+}
+.second aside .call{
+    width:50%;
+    background-color: rgb(206,217,17);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+
+    
+}
+footer{
+    height:10vh;
+    background-color: rgb(167,202,204);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
